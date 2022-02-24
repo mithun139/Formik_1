@@ -4,7 +4,9 @@ const Registration = () => {
     const formik = useFormik({
         initialValues:{
             email:"initValues@gmail.com",
-            password:""
+            password:"",
+            age:"",
+            fullname:""
         },
         onSubmit(values){
             console.log("form Submit");
